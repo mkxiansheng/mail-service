@@ -1,0 +1,28 @@
+{
+  "name": "mail-service",
+  "version": "1.0.0",
+  "description": "node mail service",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkxiansheng/mail-service.git"
+  },
+  "keywords": [
+    "node",
+    "mail",
+    "service",
+    "QQ"
+  ],
+  "author": "mk先生",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkxiansheng/mail-service/issues"
+  },
+  "homepage": "https://github.com/mkxiansheng/mail-service#readme",
+  "devDependencies": {
+    "nodemailer": "^6.3.0"
+  }
+}
