@@ -1,14 +1,19 @@
 const nodemailer = require('nodemailer')
+const fs = require('fs')
 
 const configs = require('./configs/config')
+
+const logIn = fs.readFileSync('./template/login.html', 'utf8')
+
+// console.log(logIn)
 
 console.log(configs)
 
 const mailOptions = {
     from: configs.auth.user,
     to: '****',
-    subject: 'test node meil service',
-    html: 'hello world!'
+    subject: '****',
+    html: '****'
 }
 
 const transporter = nodemailer.createTransport(configs)
